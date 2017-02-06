@@ -28,6 +28,36 @@ namespace ÝrdesBot
 
 
             });
+            discord.UserJoined += async (s, e) =>
+            {
+                var channel = e.Server.FindChannels("lobby", ChannelType.Text).FirstOrDefault();
+                var user = e.User;
+                await channel.SendMessage(string.Format("{0} has joined the server", user.Name));
+            };
+
+            discord.UserBanned += async (s, e) =>
+            {
+                var channel = e.Server.FindChannels("lobby", ChannelType.Text).FirstOrDefault();
+                var user = e.User;
+                await channel.SendMessage(string.Format("{0} has been banned", user.Name));
+            };
+
+
+
+            discord.UserLeft += async (s, e) =>
+            {
+                var channel = e.Server.FindChannels("lobby", ChannelType.Text).FirstOrDefault();
+                var user = e.User;
+                await channel.SendMessage(string.Format("{0} has left the server", user.Name));
+            };
+
+            discord.UserUnbanned  += async (s, e) =>
+            {
+                var channel = e.Server.FindChannels("lobby", ChannelType.Text).FirstOrDefault();
+                var user = e.User;
+                await channel.SendMessage(string.Format("{0} has been unbanned", user.Name));
+            };
+
             var commands = discord.GetService<CommandService>();
 
             commands.CreateCommand("hi")
