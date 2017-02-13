@@ -60,6 +60,7 @@ namespace ÝrdesBot
 
             var commands = discord.GetService<CommandService>();
 
+
             commands.CreateCommand("hi")
                 .Do(async (e) =>
                 {
