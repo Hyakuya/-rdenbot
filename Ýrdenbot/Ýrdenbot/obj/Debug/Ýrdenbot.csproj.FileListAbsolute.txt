@@ -17,3 +17,4 @@ C:\Users\oversoul\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Nito.A
 C:\Users\oversoul\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\RestSharp.xml
 C:\Users\oversoul\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\obj\Debug\Ýrdenbot.exe
 C:\Users\oversoul\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\obj\Debug\Ýrdenbot.pdb
+C:\Users\oversoul\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\amd.jpg
