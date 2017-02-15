@@ -11,7 +11,7 @@ namespace ÝrdesBot
     class MyBot
     {
         DiscordClient discord;
-        
+        CommandService commands;
 
         public MyBot()
         {
@@ -28,6 +28,9 @@ namespace ÝrdesBot
 
 
             });
+
+            
+
             discord.UserJoined += async (s, e) =>
             {
                 var channel = e.Server.FindChannels("lobby", ChannelType.Text).FirstOrDefault();
@@ -81,6 +84,14 @@ namespace ÝrdesBot
                 {
                     await e.Channel.SendMessage("Bal'a dash, malanore");
                 });
+
+            commands.CreateCommand("amd")
+             .Do(async (e) =>
+             {
+                 await e.Channel.SendFile("Pictures/amd.jpg");
+             });
+
+
             commands.CreateCommand("idiot")
                .Do(async (e) =>
                {
@@ -103,12 +114,17 @@ namespace ÝrdesBot
                 
             });
         }
-
         private void Log(object sender, LogMessageEventArgs e)
         {
             Console.WriteLine(e.Message);
         }
+
+
+
+    }
+        
+        
     }
 
 
-}
+
