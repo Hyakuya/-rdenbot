@@ -84,12 +84,19 @@ namespace ÝrdesBot
                 {
                     await e.Channel.SendMessage("Bal'a dash, malanore");
                 });
+
             commands.CreateCommand("amd")
              .Do(async (e) =>
              {
                  await e.Channel.SendFile("Pictures/amd.jpg");
              });
 
+
+            commands.CreateCommand("idiot")
+               .Do(async (e) =>
+               {
+                   await e.Channel.SendMessage("Hannes");
+               });
 
             discord.ExecuteAndWait(async () =>
             {
