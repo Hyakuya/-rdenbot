@@ -47,3 +47,4 @@ C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\
 C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\wille.jpg
 C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\admin.jpg
 C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\zlatan.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\laught.gif

@@ -96,10 +96,20 @@ namespace ÝrdesBot
              {
                  await e.Channel.SendFile("Pictures/intel.jpg");
              });
+            commands.CreateCommand("nvidia")
+             .Do(async (e) =>
+             {
+                 await e.Channel.SendFile("Pictures/intel.jpg");
+             });
             commands.CreateCommand("zlatan")
              .Do(async (e) =>
              {
                  await e.Channel.SendFile("Pictures/zlatan.jpg");
+             });
+            commands.CreateCommand("lol")
+             .Do(async (e) =>
+             {
+                 await e.Channel.SendFile("Pictures/laught.gif");
              });
 
 
