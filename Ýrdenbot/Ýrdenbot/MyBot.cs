@@ -114,12 +114,12 @@ namespace ÝrdesBot
                {
                    await e.Channel.SendFile("Pictures/wille.jpg");
                });
+           
 
-            
             commands.CreateCommand("help")
                .Do(async (e) =>
                {
-                   await e.Channel.SendMessage("commands Hi - hello - bye - admin - zlatan - hannes - pepe - felix - intel - amd");
+                   await e.User.SendMessage("commands: Hi - hello - bye - admin - zlatan - hannes - pepe - felix - intel - amd");
                });
             commands.CreateCommand("felix")
                .Do(async (e) =>
