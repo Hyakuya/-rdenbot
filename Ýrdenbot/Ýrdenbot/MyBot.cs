@@ -11,7 +11,7 @@ namespace ÝrdesBot
     class MyBot
     {
         DiscordClient discord;
-        CommandService commands;
+        
 
         public MyBot()
         {
@@ -23,7 +23,7 @@ namespace ÝrdesBot
 
             discord.UsingCommands(x =>
             {
-                x.PrefixChar = '§';
+                x.PrefixChar = '-';
                 x.AllowMentionPrefix = true;
 
 
@@ -73,6 +73,7 @@ namespace ÝrdesBot
                 .Do(async (e) =>
                 {
                     await e.Channel.SendMessage("Hyakuya and Darkmatter");
+                    await e.Channel.SendFile("Pictures/admin.jpg");
                 });
             commands.CreateCommand("bye")
                 .Do(async (e) =>
@@ -90,22 +91,40 @@ namespace ÝrdesBot
              {
                  await e.Channel.SendFile("Pictures/amd.jpg");
              });
+            commands.CreateCommand("intel")
+             .Do(async (e) =>
+             {
+                 await e.Channel.SendFile("Pictures/intel.jpg");
+             });
+            commands.CreateCommand("zlatan")
+             .Do(async (e) =>
+             {
+                 await e.Channel.SendFile("Pictures/zlatan.jpg");
+             });
 
 
-            commands.CreateCommand("idiot")
+            commands.CreateCommand("hannes")
                .Do(async (e) =>
                {
-                   await e.Channel.SendMessage("Hannes");
+                   await e.Channel.SendFile("Pictures/hannes.jpg");
                });
-            commands.CreateCommand("commands")
+
+            commands.CreateCommand("pepe")
                .Do(async (e) =>
                {
-                   await e.Channel.SendMessage("Hi - hello - bye - admin - idiot");
+                   await e.Channel.SendFile("Pictures/wille.jpg");
                });
+
+            
             commands.CreateCommand("help")
                .Do(async (e) =>
                {
-                   await e.Channel.SendMessage("Hi - hello - bye - admin - idiot");
+                   await e.Channel.SendMessage("commands Hi - hello - bye - admin - zlatan - hannes - pepe - felix - intel - amd");
+               });
+            commands.CreateCommand("felix")
+               .Do(async (e) =>
+               {
+                   await e.Channel.SendFile("Pictures/felix.jpg");
                });
 
             discord.ExecuteAndWait(async () =>

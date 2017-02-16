@@ -41,3 +41,9 @@ C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\RestSharp
 C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\obj\Debug\Ýrdenbot.csprojResolveAssemblyReference.cache
 >>>>>>> origin/master
 C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\amd.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\intel.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\felix.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\hannes.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\wille.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\admin.jpg
+C:\Users\limpa\Documents\GitHub\-rdenbot\Ýrdenbot\Ýrdenbot\bin\Debug\Pictures\zlatan.jpg
